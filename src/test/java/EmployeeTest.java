@@ -17,6 +17,7 @@ class EmployeeTest {
 
     @org.junit.jupiter.api.Test
     void getAge() {
+        assertEquals(66, employee.getAge());
     }
 
     @org.junit.jupiter.api.Test
