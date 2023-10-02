@@ -14,7 +14,7 @@ public class Employee {
     }
 
     public int getAge() {
-        return age;
+        return age * 2;
     }
 
     public String getPosition() {
